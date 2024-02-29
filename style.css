@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    font-family: sans-serif;
+}
+.card{
+    width: 350px;
+    background-color: aquamarine;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    transition: all 0.5s;
+}
+.card:hover{
+    width: 600px;
+    transition: all 0.5s;
+}
+.img{
+    width: 300px;
+    margin: auto;
+}
+img{
+    width: 100%;
+}
+.info{
+    width: 300px;
+    margin: auto;
+}
+.price{
+    text-align: center;
+}
+.btn{
+    width: 300px;
+    margin: auto;
+}
+button{
+    width: 100%;
+    background-color: cyan;
+    color: blue;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: rgb(117, 117, 255);
+    transition: all 0.5s;
+}
+.cards{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+.header{
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    position: relative;
+}
+.main-image{
+    width: 100%;
+    position: absolute;
+}
+.texts{
+    position: absolute;
+    top: 0px;
+    font-size: 40px;
+    right: 0px;
+}
+.btn1{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+.button{
+    margin-top: 20px; 
+    width: 75%;
+}
+input{
+    height: 35px;
+    width: 360px;
+    border-radius: 20px;
+    font-size: 20px;
+    border: 2px solid cyan;    
+    padding-left: 15px;
+    margin-bottom: 5px;
+    outline: none;
+    transition: all 0.3s;
+}
+input:focus{
+    border: 2px solid blue;
+    transition: all 0.3s;
+}
+.review{
+    margin-left: 100px;
+    margin-top: 50px;
+}
+form{
+    width: 300px;
+}
+.quest{
+    font-size: 35px;
+    color: blue;
+    margin-bottom: 20px;
+}
+
